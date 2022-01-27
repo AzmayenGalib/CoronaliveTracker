@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/CoronaliveTracker/static/css/main.5724a987.css",
+    "main.js": "/CoronaliveTracker/static/js/main.d7daffa6.js",
+    "static/js/787.f63e59e4.chunk.js": "/CoronaliveTracker/static/js/787.f63e59e4.chunk.js",
+    "static/media/—Pngtree—live streaming icons red symbols_5954160.png": "/CoronaliveTracker/static/media/—Pngtree—live streaming icons red symbols_5954160.1720359034253f1e2438.png",
+    "index.html": "/CoronaliveTracker/index.html",
+    "main.5724a987.css.map": "/CoronaliveTracker/static/css/main.5724a987.css.map",
+    "main.d7daffa6.js.map": "/CoronaliveTracker/static/js/main.d7daffa6.js.map",
+    "787.f63e59e4.chunk.js.map": "/CoronaliveTracker/static/js/787.f63e59e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5724a987.css",
+    "static/js/main.d7daffa6.js"
+  ]
+}
