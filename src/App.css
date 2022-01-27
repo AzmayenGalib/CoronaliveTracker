@@ -1,38 +1,168 @@
-.App {
+html {
+  font-size: 62.5%;
+}
+
+.live {
+  display: inline-block;
+  background-image: url(./images/—Pngtree—live\ streaming\ icons\ red\ symbols_5954160.png);
+  background-size: cover;
+  background-position: center;
+  height: 10.0rem;
+  width: 10.0rem;
+  position: relative;
+  left: 45%;
+  top: 3.0rem;
+  animation-name: liveicon;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+.board {
+  padding-top: 3.0rem;
+  display: grid;
+  grid-template-columns: 30.0rem 30.0rem;
+  grid-template-rows: 20.0rem 20.0rem;
+  grid-gap: 5.0rem;
+  justify-content: center;
+  margin-bottom: 7.0rem;
+}
+.box {
+  border: 0.2rem solid rgb(166, 199, 230);
+  border-radius: 2.0rem;
+  border-bottom: 1.0rem solid red;
+  transition: transform 1s;
+  padding: 1.0rem 2.0rem;
+}
+
+.deth:hover {
+  border-bottom: 1.0rem solid red;
+  -webkit-box-shadow: 0.1rem 0.1rem 2.1rem 0.6rem #ff1228;
+  box-shadow: 0.1rem 0.1rem 2.1rem 0.6rem #ff1228;
+  transform: scale(1.1, 1.1);
+}
+
+.helth {
+  border-bottom: 1.0rem solid rgb(4, 248, 4);
+}
+.helth:hover {
+  -webkit-box-shadow: 0.1rem 0.1rem 2.1rem 0.6rem #57ff26;
+  box-shadow: 0.1rem 0.1rem 2.1rem 0.6rem #57ff26;
+  transform: scale(1.1, 1.1);
+}
+
+.test {
+  border-bottom: 1.0rem solid rgb(86, 185, 241);
+}
+.test:hover {
+  -webkit-box-shadow: 0.1rem 0.1rem 2.1rem 0.6rem #54dbff;
+  box-shadow: 0.1rem 0.1rem 2.1rem 0.6rem #54dbff;
+  transform: scale(1.1, 1.1);
+}
+
+.head {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes liveicon {
+  0% {
+    height: 10.0rem;
+    width: 10.0rem;
+  }
+  100% {
+    transform: scale(1.2, 1.2);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.box p {
+  font-size: 2.0rem;
+  padding: 0rem;
+  margin: 0.1rem;
+  color: rgb(85, 83, 83);
+}
+
+#numdeth {
+  font-size: 4.0rem;
+  padding: 0rem;
+  margin: 1.0rem 0rem 0rem 0rem;
+  color: red;
+}
+#numhelth {
+  font-size: 4.0rem;
+  padding: 0rem;
+  margin: 1.0rem 0rem 0rem 0rem;
+  color: rgb(4, 248, 4);
+}
+#numtest {
+  font-size: 4.0rem;
+  padding: 0rem;
+  margin: 1.0rem 0rem 0rem 0rem;
+  color: rgb(86, 185, 241);
+}
+#numen {
+  font-size: 4.0rem;
+  padding: 0rem;
+  margin: 1.0rem 0rem 0rem 0rem;
+  color: red;
+}
+.lboard {
+  padding-top: 3.0rem;
+  display: grid;
+  grid-template-columns: 30.0rem 30.0rem 30.0rem;
+  grid-template-rows: 20.0rem;
+  grid-gap: 0.5rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 7.0rem;
 }
 
-.App-link {
-  color: #61dafb;
+.lb {
+  margin: 0rem 1.0rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media(max-width:998px){
+  html{
+    font-size: 55%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+
+@media(max-width:768px){
+  html{
+    font-size: 45%;
   }
+  
+}
+
+@media(max-width:390px){
+  html{
+    font-size: 35%;
+  }
+  .board {
+    padding-top: 3.0rem;
+    display:grid;
+    grid-template-columns: 30rem 30rem;
+    grid-template-rows: 22.0rem 22.0rem;
+    grid-gap: 2.0rem;
+    justify-content: center;
+    margin-bottom: 7.0rem;
+  }
+  .head {
+    text-align: center;
+    font-size: 4rem;
+  }
+  #lbord{
+    display: block;
+    margin-bottom: 1.0rem;
+    padding: 0rem 10rem;
+
+  }
+  #lbox{
+   margin: 4rem;
+  }
+  .box p {
+    font-size: 2.2rem;
+    padding: 0rem;
+    margin: 0.1rem;
+    color: rgb(85, 83, 83);
+  }
+
 }
