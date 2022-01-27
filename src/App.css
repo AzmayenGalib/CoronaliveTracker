@@ -135,20 +135,20 @@ html {
 
 @media(max-width:390px){
   html{
-    font-size: 30%;
+    font-size: 25%;
   }
   .board {
     padding-top: 3.0rem;
     display:grid;
     grid-template-columns: 30rem 30rem;
-    grid-template-rows: 22.0rem 22.0rem;
-    grid-gap: 3.0rem;
+    grid-template-rows: 23.0rem 23.0rem;
+    grid-gap: 3.2rem;
     justify-content: center;
     margin-bottom: 7.0rem;
   }
   .head {
     text-align: center;
-    font-size: 4rem;
+    font-size: 6rem;
   }
   #lbord{
     display: block;
