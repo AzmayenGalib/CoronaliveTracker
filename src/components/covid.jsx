@@ -133,8 +133,8 @@ export default function Covid() {
             {months[month] + " "}
             {dat + " "}
             {year}
-            
             <br></br>
+            
             Number of recoveries from covid-19
           </p>
           
