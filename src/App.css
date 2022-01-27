@@ -37,7 +37,7 @@ html {
   border-bottom: 1.0rem solid red;
   -webkit-box-shadow: 0.1rem 0.1rem 2.1rem 0.6rem #ff1228;
   box-shadow: 0.1rem 0.1rem 2.1rem 0.6rem #ff1228;
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
 }
 
 .helth {
@@ -46,7 +46,7 @@ html {
 .helth:hover {
   -webkit-box-shadow: 0.1rem 0.1rem 2.1rem 0.6rem #57ff26;
   box-shadow: 0.1rem 0.1rem 2.1rem 0.6rem #57ff26;
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
 }
 
 .test {
@@ -55,7 +55,7 @@ html {
 .test:hover {
   -webkit-box-shadow: 0.1rem 0.1rem 2.1rem 0.6rem #54dbff;
   box-shadow: 0.1rem 0.1rem 2.1rem 0.6rem #54dbff;
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
 }
 
 .head {
@@ -135,14 +135,14 @@ html {
 
 @media(max-width:390px){
   html{
-    font-size: 35%;
+    font-size: 30%;
   }
   .board {
     padding-top: 3.0rem;
     display:grid;
     grid-template-columns: 30rem 30rem;
     grid-template-rows: 22.0rem 22.0rem;
-    grid-gap: 2.0rem;
+    grid-gap: 3.0rem;
     justify-content: center;
     margin-bottom: 7.0rem;
   }
@@ -160,7 +160,7 @@ html {
    margin: 4rem;
   }
   .box p {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     padding: 0rem;
     margin: 0.1rem;
     color: rgb(85, 83, 83);
