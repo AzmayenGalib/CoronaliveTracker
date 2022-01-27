@@ -73,7 +73,7 @@ export default function Covid() {
             {months[month] + " "}
             {dat + " "}
             {year}
-            <br></br>
+          
             <br></br>
             Number of recoveries from covid-19
           </p>
@@ -86,7 +86,7 @@ export default function Covid() {
             {months[month] + " "}
             {dat + " "}
             {year}
-            <br></br>
+            
             <br></br>
             Number of tests of covid-19
           </p>
@@ -99,7 +99,7 @@ export default function Covid() {
             {months[month] + " "}
             {dat + " "}
             {year}
-            <br></br>
+            
             <br></br>
             Number of active cases of covid-19
             <br></br>
@@ -113,7 +113,7 @@ export default function Covid() {
             {months[month] + " "}
             {dat + " "}
             {year}
-            <br></br>
+            
             <br></br>
             Number of deaths caused by covid-19
           </p>

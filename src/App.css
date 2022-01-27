@@ -135,14 +135,14 @@ html {
 
 @media(max-width:390px){
   html{
-    font-size: 25%;
+    font-size: 30%;
   }
   .board {
     padding-top: 3.0rem;
     display:grid;
     grid-template-columns: 30rem 30rem;
-    grid-template-rows: 23.0rem 23.0rem;
-    grid-gap: 3.2rem;
+    grid-template-rows: 24.0rem 24.0rem;
+    grid-gap: 3rem;
     justify-content: center;
     margin-bottom: 7.0rem;
   }
@@ -154,6 +154,7 @@ html {
     display: block;
     margin-bottom: 1.0rem;
     padding: 0rem 10rem;
+    
 
   }
   #lbox{
